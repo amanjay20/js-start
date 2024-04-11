@@ -15,7 +15,7 @@ mymap.set('In','India')
 mymap.set('UK','united kingdom')
 mymap.set('US','united state')
 console.log(mymap);
-for (const [key,value ]of mymap) {
+for (const [key,value ]of mymap) {// for map we used for of 
     console.log(key,':-',value);
 }
 /*MAP IS ITERATABLE  BUT OBJECT IS NOT ITERATABLE */
