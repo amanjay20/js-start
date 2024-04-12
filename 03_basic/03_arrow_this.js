@@ -22,7 +22,7 @@ chai()//undefined (because this is not used in function)
 
 const chai2=()=>{// ARROR FUNCTION DECLARATION
     let username="hitesh"
-    console.log(this.username);//undefined (for only this we get {})
+    console.log(this.username);//undefined (for only this we get {}) IF WE REMOVE THIS AND ONLY WRITE USERNAME -> WE GET HITESH
 }
 chai2()
 /*******************************ARROW FUNCTION****************/
