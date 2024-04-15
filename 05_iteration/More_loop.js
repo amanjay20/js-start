@@ -4,11 +4,18 @@ for (const num of array) {
     // console.log(num);
     
 }
-const greeting="hello user how are you ?"
+const greeting="hello?"
 for (const greet of greeting) {
     // console.log(`each char is ${greet}`);
     
 }
+// output 
+// each char is h
+// each char is e
+// each char is l
+// each char is l
+// each char is o
+// each char is ?
 //MAP
 const mymap=new Map()
 mymap.set('In','India')
@@ -18,4 +25,13 @@ console.log(mymap);
 for (const [key,value ]of mymap) {// for map we used for of 
     console.log(key,':-',value);
 }
+// output 
+// Map(3) {
+//   'In' => 'India',
+//   'UK' => 'united kingdom',
+//   'US' => 'united state'
+// }
+// In :- India
+// UK :- united kingdom
+// US :- united state
 /*MAP IS ITERATABLE  BUT OBJECT IS NOT ITERATABLE */
