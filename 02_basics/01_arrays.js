@@ -23,10 +23,10 @@ console.log(newArr);// 1,2,3,4,true,8 ..change array into string
 
 /* MAIN DIFFERENCE BETWEEN SLICE AND SPLICE  */
 console.log("a",Myarr);// a [0,1,2,3,4,5]
-const myn1=Myarr.slice//(1,3)
-console.log(myn1);//[1,2]
+const myn1=Myarr.slice(1,3)
+console.log(myn1);//[1,2] (myn1) new variable made 
 
 console.log("B",Myarr); // B [0,1,2,3,4,5]
 const my2=Myarr.splice(1,3)
-console.log(my2);//[1,2,3] ELEMENT THAT REMOVE GIVE OUTPUT IN SPLICE 
+console.log(my2);//[0,4,5] get as output
 
