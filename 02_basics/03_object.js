@@ -31,3 +31,18 @@ console.log(myobj.greeting());
 console.log(myobj.greeting2());
 
 console.log(myobj);
+
+// hello js user
+// undefined
+// hello js user amanjay
+// undefined
+// {
+//   name: 'amanjay',
+//   'last name': 'chaudhary',
+//   city: 'jehanabad',
+//   age: 22,
+//   lastlogin: [ 'monday', 'saturday' ],
+//   greeting: [Function (anonymous)],
+//   greeting2: [Function (anonymous)],
+//   [Symbol(key)]: 'new'
+// }
