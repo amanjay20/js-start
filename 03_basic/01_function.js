@@ -39,12 +39,12 @@ function handleObject(anyObject){//make an object with parameter named (anyobjec
     console.log(`hello my name is ${anyObject.username} and my age is ${anyObject.age}.`);
 
 }
-// handleObject(user);// pass user as argument 
+// handleObject(user);// pass user as argument (IN THIS CASE USERNAME = HITESH AND AGE =22)
 handleObject({
     username:"sam",
     age:21
 
-})
+})//IN THIS CASE NOW USERNAME IS SAM AND AGE IS 21
 /* Pass array in function */
 const mynewarray=[100,200,300,500]
 function returnSecondValue(getanarray) {
