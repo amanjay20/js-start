@@ -35,3 +35,17 @@ for (const [key,value ]of mymap) {// for map we used for of
 // UK :- united kingdom
 // US :- united state
 /*MAP IS ITERATABLE  BUT OBJECT IS NOT ITERATABLE */
+/*WHY OBJECT IS NOT ITERATABLE*/
+Let myobj={
+    'game1':"NFS",
+    'game2':"IGI"
+}
+for (const [key,value] of myobj){
+    console.log(key,'-',value) // OUTPUT :- OBJECT IS NOT ITERABLE
+}
+
+
+
+
+    
+}
